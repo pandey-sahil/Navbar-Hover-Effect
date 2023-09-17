@@ -23,7 +23,7 @@ html , body{
     padding: 15px 20px;
     display: flex;
     position: relative;
-    border-bottom: 2px solid white;
+    border-bottom: 1.5px solid white;
 }
 
 .elem h1{
