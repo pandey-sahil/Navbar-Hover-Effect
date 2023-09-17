@@ -36,7 +36,7 @@ html , body{
     border-radius: 50%;
     position: absolute;
     width: 150px;
-    background-color: red;
+    /* background-color: red; */
     z-index: 9;
     mix-blend-mode: difference;
     opacity: 0;
