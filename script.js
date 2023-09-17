@@ -5,11 +5,10 @@ elem = document.querySelectorAll(".elem")
 elem.forEach(function(e){
     var imgs = e.childNodes[1]
 
-    console.log(imgs)
+    // console.log(imgs)
     e.addEventListener("mousemove", function(dets){
         gsap.to(imgs , {
             left : dets.x,
-            // top : dets.y
         })
     })
 
